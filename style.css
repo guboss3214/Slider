@@ -69,12 +69,12 @@ a{
 
 .carousel{
     position: relative;
-    height: 90vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding-bottom: 4rem;
 }
 
 .slides{
@@ -103,6 +103,11 @@ a{
     opacity: 0;
     z-index: -999;
     font-size: 40px;
+}
+
+.slide a{
+    user-select: none;
+    pointer-events: none;
 }
 
 .slide a > img{
